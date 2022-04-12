@@ -1,0 +1,46 @@
+.container-container {
+  background: linear-gradient(88.27deg, #574ae8 0%, #3ea1db 100%);
+  width: 100%;
+}
+
+.header-container {
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+  color: white;
+  margin: 0 auto;
+}
+
+.header-wrapper {
+  justify-content: space-between;
+  display: flex;
+}
+
+.pesquisa {
+  padding: 15px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+}
+
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: rgb(255, 255, 255);
+}
+
+.header-left {
+  font-family: "Lexend Deca", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+}
+.header-right {
+  font-family: "Lexend Deca", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+}
