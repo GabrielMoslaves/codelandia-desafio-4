@@ -1,11 +1,21 @@
 .card-container {
   background-color: white;
   max-width: 900px;
-  padding: 10px;
+  padding: 20px;
   border-radius: 10px;
 }
 
 .first-line {
+  padding-bottom: 20px;
   display: flex;
   justify-content: space-between;
+}
+
+.card-header {
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 934px) {
+  .card-container {
+    margin: 20px;
+  }
 }
